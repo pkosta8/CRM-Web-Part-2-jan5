@@ -11,8 +11,9 @@ body {
 header h1 {
   background-color: black;
   color: white;
+  padding: 12px 0;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -24,41 +25,41 @@ header nav ul {
 
 nav ul li {
   text-align: center;
+  font-weight: bold;
   background-color: grey;
-  /*background-color: #ccc;*/
+  padding: 12px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
-nav ul {
+
+nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 
-
-nav li a {
- text-decoration: none;
- color: white;
- font-size: 30px;
- font-weight: bold;
-}
-
 main {
+  border-width: thin;
   width: 100%;
   margin: 0 auto;
   border-top: 5 solid white;
   border-bottom: 5px solid white;
 }
 
-
-main h3 {
+main .totalcontacts {
   background-color: red;
-  font-size: 30px;
-  padding: 20px;
+  padding: 25px 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 2;
 }
+
 
 main .contact {
   background-color: aqua;
+  padding: 15px 20px;
   margin-top: 20px;
 }
 
